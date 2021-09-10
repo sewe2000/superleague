@@ -1,0 +1,80 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/engine.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/engine.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/footballer.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/footballer.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/main.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/main.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/menu.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/menu.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/person.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/person.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++20",
+      "-o",
+      "superliga",
+      "src/save.cpp"
+    ],
+    "directory": "/home/seweryn/dev/projects/superliga",
+    "file": "/home/seweryn/dev/projects/superliga/src/save.cpp",
+    "output": "/home/seweryn/dev/projects/superliga/superliga"
+  }
+]
