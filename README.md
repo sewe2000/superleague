@@ -4,3 +4,10 @@ Jest to prosta gra wzorująca się na pewnych mechanikach z football managera.
 Przejmij stery jednej z drużyn w scenariuszu w którym superliga nie upadła i poprowadź swoją drużynę do chwały.
 
 Gra nie jest skończona i została testowana tylko na platformie GNU/Linux.
+
+Zależności potrzebne do zbudowania:
++ git
++ make
++ gcc (g++)
++ ncurses
+
