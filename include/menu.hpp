@@ -40,7 +40,7 @@ public:
         Menu(std::initializer_list<MenuItem> it): items{it}
         {
                 
-                if(items[0].getLabel() == "Graj")
+                if(items[0].getLabel() == "Play")
                         isStartMenu = true;
                 else isStartMenu = false;
                 n_options = items.size();
@@ -53,13 +53,13 @@ public:
         Menu* get_submenu() {return items[highlight-1].get_next();}
 private:
         static constexpr int LOGO_WIDTH = 54;
-        static constexpr int LOGO_HEIGHT = 11;
+        static constexpr int LOGO_HEIGHT = 13;
         std::vector<MenuItem> items;
         short highlight = 1;
         short n_options;
         MENU *m;
         bool isStartMenu;
-        static constexpr char logo[]=       
+        /* static constexpr char logo[]=       
         " ____  _   _ ____  _____ ____  _     ___ ____    _\n" 
         "/ ___|| | | |  _ \\| ____|  _ \\| |   |_ _/ ___|  / \\\n"
         "\\___ \\| | | | |_) |  _| | |_) | |    | | |  _  / _ \\\n"
@@ -69,7 +69,23 @@ private:
         "|___ \\ / _ \\___ \\/ |  / /___ \\ / _ \\___ \\ |___ \\ \n"
         "  __) | | | |__) | | / /  __) | | | |__) | __) |   \n"
         " / __/| |_| / __/| |/ /  / __/| |_| / __/ / __/    \n"
-        "|_____|\\___/_____|_/_/  |_____|\\___/_____|_____| \n";
+        "|_____|\\___/_____|_/_/  |_____|\\___/_____|_____| \n"; */
+ static constexpr char logo[]=       
+R"(
+ ____                        _
+/ ___| _   _ _ __   ___ _ __| | ___  __ _  __ _ _   _  ___
+\___ \| | | | '_ \ / _ \ '__| |/ _ \/ _` |/ _` | | | |/ _ \
+ ___) | |_| | |_) |  __/ |  | |  __/ (_| | (_| | |_| |  __/
+|____/ \__,_| .__/ \___|_|  |_|\___|\__,_|\__, |\__,_|\___|
+            |_|                           |___/
+ ____   ___ ____  _    ______   ___ ____  ____
+|___ \ / _ \___ \/ |  / /___ \ / _ \___ \|___ \
+  __) | | | |__) | | / /  __) | | | |__) | __) |
+ / __/| |_| / __/| |/ /  / __/| |_| / __/ / __/
+|_____|\___/_____|_/_/  |_____|\___/_____|_____|
+
+)";
+
         
 };
 
