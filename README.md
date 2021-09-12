@@ -11,3 +11,7 @@ Zależności potrzebne do zbudowania:
 + gcc (g++)
 + ncurses
 
+Instrukcje budowania:
+1. Sklonuj to repozytorium: git clone https://github.com/serweryn7D6/superleague.git
+2. Zbuduj grę: make
+3. Aby zainstalować wpisz: sudo make install
