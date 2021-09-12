@@ -1,17 +1,16 @@
 Superleage 2020/2021
 
-Jest to prosta gra wzorująca się na pewnych mechanikach z football managera.
-Przejmij stery jednej z drużyn w scenariuszu w którym superliga nie upadła i poprowadź swoją drużynę do chwały.
+It is a "work in progress" simple game based on some mechanics of Football Manager.
+The game is in a very early stage of Development and has been tested only on GNU/Linux and MacOS.
 
-Gra nie jest skończona i została testowana na platformie GNU/Linux oraz macOS Big Sur 11.3.1 (M1).
+Dependencies needed for building:
 
-Zależności potrzebne do zbudowania:
 + git
 + make
 + gcc (g++)
 + ncurses
 
-Instrukcje budowania:
-1. Sklonuj to repozytorium: git clone https://github.com/serweryn7D6/superleague.git
-2. Zbuduj grę: make
-3. Aby zainstalować wpisz: sudo make install
+Build instructions:
+1. Clone this repository: git clone https://github.com/serweryn7D6/superleague.git
+2. Build by running: make
+3. In order to install the Game you should issue the following command: sudo make install
