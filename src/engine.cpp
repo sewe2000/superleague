@@ -10,7 +10,7 @@ void Engine::about_game()
 {
         addstr("Gra Superliga jest w trakcie produkcji. Jej autorem jest Seweryn P.\n");
         addstr("Jest ona napisana w języku C++ przy użyciu biblioteki standardowej tegoż języka oraz GNU ncurses\n");
-        addstr("Gra testowana była jedynie w systemie GNU/Linux, wersja Windowsowa najprawdopodobniej prędko się nie pojawi jeśli w ogóle.\n");
+        addstr("Gra testowana była na platformie GNU/Linux oraz macOS Big Sur 11.3.1 (M1), wersja Windowsowa najprawdopodobniej prędko się nie pojawi jeśli w ogóle.\n");
         addstr("Moje narzędzia pracy: edytor kodu - Neovim, kompilator - g++ , system budowania - GNU Make, debugger - GNU Debugger (gdb)\n");
 
 }
@@ -85,7 +85,7 @@ void Engine::menu()
         MenuItem("Ustawienia", nullptr, &menu_settings),
         MenuItem("O grze", &Engine::about_game),
         MenuItem("Wyjdź", &Engine::stop)
-        }; 
+        };
         std::stack<Menu*> menus;
         menus.push(&start_menu);
         Menu* current_menu = menus.top();
@@ -117,7 +117,7 @@ void Engine::menu()
                                 }
                                 else {
                                         clear();
-                                        current_menu->call();       
+                                        current_menu->call();
                                         menus.push(nullptr);
                                 }
                                 break;
@@ -128,7 +128,7 @@ void Engine::menu()
                                 clear();
                                 current_menu->print();
                                 break;
-                                
+
 
                 }
                 ch = getch();
