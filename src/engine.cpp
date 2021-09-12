@@ -105,7 +105,7 @@ void Engine::menu()
                                 }
                                 else {
                                         clear();
-                                        current_menu->call();       
+                                        current_menu->call();
                                         menus.push(nullptr);
                                 }
                                 break;
@@ -116,7 +116,7 @@ void Engine::menu()
                                 clear();
                                 current_menu->print();
                                 break;
-                                
+
 
                 }
                 ch = getch();

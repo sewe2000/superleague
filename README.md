@@ -4,6 +4,7 @@ It is a "work in progress" simple game based on some mechanics of Football Manag
 The game is in a very early stage of Development and has been tested only on GNU/Linux and MacOS.
 
 Dependencies needed for building:
+
 + git
 + make
 + gcc (g++)
