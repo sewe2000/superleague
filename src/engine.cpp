@@ -35,17 +35,7 @@ void Engine::manager_creator()
         WINDOW *creator = create_window(10,10,  0, 0);
         getch();
 }
-/* void Engine::print_game_intro()
-{
-        clear();
-        addstr("W kwietniu 2021 r. europejskim piłkarskim światem wstrząsneła wiadomość o koncepcie superligi.\n");
-        addstr("Podczas pandemii COVID-19 kluby piłkarskie zaczęły ponosić straty na które lekarstwem miała być superliga.\n");
-        addstr("W superlidze występować miało tylko 20 elitarnych klubów europejskich bez udziału UEFA.                   \n");
-        addstr("Miało to zapewnić wyższą oglądalność, a tym samym większe pieniądze.                                      \n");
-        addstr("Ostatecznie pod naciskiem UEFA projekt upadł. Czy zastanawiałeś/aś się jednak co by się stało gdyby superliga pozostała przy życiu?\n");
-        addstr("W grze Superliga 2021, wcielisz się w wykreowanego przez ciebie managera dowolnego z klubów Superligi.\n");
-        addstr("Poprowadź swój klub do wielkiej chwały i pieniędzy oraz daj powód do radości kibicom, przy okazji pokazując kto rządzi w Europie.\n");
-} */
+
 
 void Engine::init()
 {
