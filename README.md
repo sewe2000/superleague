@@ -11,6 +11,15 @@ Dependencies needed for building:
 + ncurses
 
 Build instructions:
-1. Clone this repository: git clone https://github.com/serweryn7D6/superleague.git
-2. Build by running: make
-3. In order to install the Game you should issue the following command: sudo make install
+1. Clone this repository: 
+```bash
+git clone https://github.com/serweryn7D6/superleague.git
+```
+2. Build by running: 
+```bash
+make
+```
+3. In order to install the game you should issue the following command as root: 
+```bash
+make install
+```
