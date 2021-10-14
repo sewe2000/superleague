@@ -1,4 +1,4 @@
-# [SUSPENDED] Superleage 2020/2021
+# [SUSPENDED] Superleague 2020/2021
 
 It is a "work in progress" simple game based on some mechanics of Football Manager.
 The game is in a very early stage of Development and has been tested only on GNU/Linux and MacOS.
